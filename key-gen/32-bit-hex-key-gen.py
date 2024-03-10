@@ -1,4 +1,6 @@
 import os
 import secrets
-secret_key = secrets.token_hex(16)  # Generates a 32-character hexadecimal string
+
+# Generates a 32-character hexadecimal string
+secret_key = secrets.token_hex(16)
 print(secret_key)
